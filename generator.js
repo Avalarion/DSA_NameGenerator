@@ -84,7 +84,7 @@ function loadSavedOnes() {
  */
 function attachNames(amount) {
 	var country = jQuery('#country').val();
-	var gender = jQuery('#gender').val();
+	var gender = jQuery('.gender:checked').val();
 	for(var i = 0; i < amount; i++) {
 		jQuery('#results').append(
 			jQuery('<div class="nameEntry unsaved large-12 columns"></div>').html(getSingleName(country, gender))
