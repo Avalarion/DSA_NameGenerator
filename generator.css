@@ -1,0 +1,26 @@
+.nameEntry {
+	font-size: 1.5em;
+	text-align: center;
+	padding: 10px;
+	border: 1px solid #ccc;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+
+.saved {
+	background-color: lime;
+}
+
+#footer {
+	line-height: 5em;
+	margin-bottom: 3em;
+	padding-bottom: 5em;
+	margin-top: 1em;
+}
+
+#footer div {
+	background-color: #666;
+	color: #ffffff;
+	font-size: 1.5em;
+	text-align: center;
+}

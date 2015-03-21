@@ -5,19 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DSA Name Generator | By Bastian Bringenberg</title>
     <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="generator.css" />
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
     
     <div id="namegeneratorform">
       <div class="row">
-        <div class="large-12 columns">
+        <div class="small-12 columns">
           <h1>DSA NameGenerator</h1>
         </div>
       </div>
       
       <div class="row">
-        <div class="large-12 columns">
+        <div class="small-12 columns">
         <label>Gebiet</label>
               <select name="country" id="country" class="expand">
                 <option value="loading">... loading ...</option>
@@ -26,7 +27,7 @@
       </div>
 
       <div class="row">
-        <div class="large-12 columns">
+        <div class="small-12 columns">
         <label></label>
               <input type="radio" name="gender" checked="checked" value="male" id="gender"><label for="pokemonRed">Männlich</label>
               <input type="radio" name="gender" value="female" id="gender"><label for="pokemonBlue">Weiblich</label>
@@ -34,24 +35,42 @@
       </div>
 
       <div class="row">
-        <div class="large-12 columns">
+        <div class="small-12 columns">
           <a href="#" id="submitButton" class="expand radius button">Gibs mir hart!</a><br/>
         </div>
       </div>
     </div>
 
+    <div class="row">
+        <div class="small-6 columns">
+          <a href="#" id="more" class="expand radius button showWhenScrollable">Mehr laden</a><br/>
+        </div>
+        <div class="small-6 columns">
+          <a href="#" id="saved" class="expand radius button">Lade markierte</a><br/>
+        </div>
+    </div>
+    
     <div id="results" class="row">
 
     </div>
 
-    <div id="more" class="row">
-        <div class="large-12 columns">
-          <a href="#" id="more" class="expand radius button">Mehr laden</a><br/>
+    <div id="footer" class="row">
+        <div class="small-12 columns showWhenScrollable">
+          &#x21CA;
         </div>
     </div>
-    
-    <!-- TODO -->
-    <div class="savedResults">
+
+    <div class="row">
+        <div class="small-12 columns">
+          <h5>ToDo Liste</h5>
+          <ul>
+            <li>DSA Look and Feel</li>
+            <li>Impressum</li>
+            <li>Load JSON via HTTP Get</li>
+            <li>Update to Github</li>
+            <li>Add all names</li>
+          </ul>
+        </div>
     </div>
 
     <script src="js/vendor/jquery.js"></script>
