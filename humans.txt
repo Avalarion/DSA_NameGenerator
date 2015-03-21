@@ -1,0 +1,3 @@
+/* DSA Name Generator */
+Bastian Bringenberg <bastian@bringenberg.ruhr> - Programming and Hosting
+Foundation - Basic CSS / JavaScript Package
